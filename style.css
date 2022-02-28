@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Josefin+Sans&family=Shizuru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  cursive;
+    font-weight: 300;
+    background-color: rgb(127, 177, 214);
+}
+
+.main-div{
+    margin-top: 60px;
+    display: grid;
+    place-items: center; 
+}
+/* h2{
+    display: none;
+} */
+h1{
+    font-size: 100px;
+}
+h1,h2,input,button,ul{
+    margin-bottom: 20px;
+}
+input{
+    background-color: azure;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+}
+#submit{
+    color: #fff;
+    background-color: rgb(94, 57, 3);
+    height: 30px;
+    width: 100px;
+}
+footer{
+    display: grid;
+    place-items: center;
+    margin-top: 250px;
+}
